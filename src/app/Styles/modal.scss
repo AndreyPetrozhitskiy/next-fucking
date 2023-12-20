@@ -1,0 +1,93 @@
+// Модальное окно
+.Container__modal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backdrop-filter: blur(5px);
+    z-index: 2000;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Modal{
+    width: 948px;
+    height: 700px;
+    background-color: black;
+    border-radius: 50px;
+    background: rgba(157, 0, 231, 0.31);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    h1{
+        color: #FFF;
+        text-align: center;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        margin-top: 36px;
+        height: 80px;
+        user-select: none;
+    }
+    input{
+        width: 650px;
+        height: 85px;
+        border-radius: 100px;
+        border: 3px solid #FFF;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgba(255, 255, 255, 1);
+        font-size: 35px;
+        padding: 20px;
+        &::placeholder{
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+    input[type="button"]{
+        width: 650px;
+        height: 85px;
+        border-radius: 100px;
+        background: #6F00A3;
+        color: rgba(255, 255, 255, 1);
+        border: none;
+        cursor: pointer;
+        transition: 0.2s;
+        user-select: none;
+        &:hover{
+            width: 660px;
+            height: 90px;
+        }
+    }
+    img{
+        width: 30px;
+        cursor: pointer;
+        position: absolute;
+        right: 40px;
+        top: 30px;
+        user-select: none;
+        transition: 0.5s;
+        &:hover{
+            transition: 0.5s;
+            transform: rotate(180deg);
+        }
+    }
+    p{
+        width: 100%;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        font-size: 32px;
+        cursor: pointer;
+        transition: 0.2s;
+        user-select: none;
+        &:hover{
+            transition: 0.2s;
+            color: #6F00A3;
+        }
+    }
+}
+.modal-open {
+    overflow: hidden;
+  }

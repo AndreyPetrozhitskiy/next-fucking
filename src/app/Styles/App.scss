@@ -1,0 +1,13 @@
+.App {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: url('../../../public/pattern.svg');
+    background-position: center;
+}
+.container{
+    width: 1400px;
+    height: 100%;
+}

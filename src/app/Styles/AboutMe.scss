@@ -1,0 +1,71 @@
+.AboutMe{
+    width: 100%;
+    border-radius: 15px;
+    height: 1520px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    background: rgba(157, 0, 231, 0.31);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    padding-right: 46px;
+    color: #FFF;
+    user-select: none;
+    h1:nth-of-type(1){
+        width: 100%;
+        font-size: 64px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    p:nth-of-type(1){
+        width: 100%;
+        font-size: 38px;
+        text-align: center;
+        font-weight: 900;
+        line-height: normal;
+        font-style: normal;
+        margin-top: 60px;
+    }
+    h1:nth-of-type(2){
+        width: 100%;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        margin-top: 60px;
+    }
+    ul{
+        width: 100%;
+        height: auto;
+        padding-left: 15px;
+      
+        li{
+            color: #FFF;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            list-style-type: disc;
+        }
+    }
+    p:nth-of-type(2){
+        color: #FFF;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+       
+    }
+    h1:nth-of-type(3){
+        width: 100%;
+        color: #FFF;
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+}

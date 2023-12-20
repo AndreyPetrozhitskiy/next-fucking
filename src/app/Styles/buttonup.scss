@@ -1,0 +1,27 @@
+.button__up {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #3D0957;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+    transition: 0.2s;
+    img{
+      width: 70px;
+      height: 70px;
+    }
+    &:hover{
+      transition: 0.2s;
+      background-color: rgba(157, 0, 231, 0.31);
+      
+    }
+  }
+  .button__up.visible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
